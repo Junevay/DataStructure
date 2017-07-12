@@ -1,0 +1,3683 @@
+---------------------------------------------------------------
+[ 2017-07-11T20:25:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010368s ] mysql:dbname=yc;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yc.system_user' doesn't exist
+---------------------------------------------------------------
+[ 2017-07-11T20:27:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ error ] [1]Call to undefined function U()
+---------------------------------------------------------------
+[ 2017-07-11T20:27:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ error ] [1]Call to undefined function U()
+---------------------------------------------------------------
+[ 2017-07-11T20:28:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ error ] [1]Call to undefined function U()
+---------------------------------------------------------------
+[ 2017-07-11T20:29:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ error ] [1]Call to undefined function U()
+---------------------------------------------------------------
+[ 2017-07-11T20:39:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ error ] [4]语法错误: unexpected ';'
+---------------------------------------------------------------
+[ 2017-07-11T22:06:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.045385s][吞吐率：22.03req/s] [内存消耗：2,786.79kb] [文件加载：47]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:06:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/login/yanzheng.html
+[ info ] www.yc1.com/index.php/captcha/Admin/login/yanzheng.html [运行时间：0.722147s][吞吐率：1.38req/s] [内存消耗：1,958.68kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'login' => 'yanzheng',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:09:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.036664s][吞吐率：27.27req/s] [内存消耗：2,787.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:09:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.028971s][吞吐率：34.52req/s] [内存消耗：1,958.74kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.029868s][吞吐率：33.48req/s] [内存消耗：2,558.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:09:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.027160s][吞吐率：36.82req/s] [内存消耗：2,558.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:09:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.025777s][吞吐率：38.79req/s] [内存消耗：2,558.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.029463s][吞吐率：33.94req/s] [内存消耗：2,787.72kb] [文件加载：47]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.030331s][吞吐率：32.97req/s] [内存消耗：2,558.02kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.027491s][吞吐率：36.38req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.805743078058464
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.805743078058464 [运行时间：0.070483s][吞吐率：14.19req/s] [内存消耗：1,958.80kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.805743078058464',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7017796627096342
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7017796627096342 [运行时间：0.023816s][吞吐率：41.99req/s] [内存消耗：1,958.75kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7017796627096342',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.6614515712472802
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.6614515712472802 [运行时间：0.021736s][吞吐率：46.01req/s] [内存消耗：1,958.87kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.6614515712472802',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4648885582375719
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4648885582375719 [运行时间：0.025632s][吞吐率：39.01req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4648885582375719',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.8714474452300545
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.8714474452300545 [运行时间：0.020862s][吞吐率：47.93req/s] [内存消耗：1,958.73kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.8714474452300545',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.28540353971916
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.28540353971916 [运行时间：0.021862s][吞吐率：45.74req/s] [内存消耗：1,958.93kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.28540353971916',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.40190591958316635
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.40190591958316635 [运行时间：0.023577s][吞吐率：42.41req/s] [内存消耗：1,958.85kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.40190591958316635',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.023985324221563298
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.023985324221563298 [运行时间：0.020980s][吞吐率：47.66req/s] [内存消耗：1,958.85kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.023985324221563298',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.47958570108257903
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.47958570108257903 [运行时间：0.294461s][吞吐率：3.40req/s] [内存消耗：1,958.96kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.47958570108257903',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.9311963003613772
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.9311963003613772 [运行时间：0.104681s][吞吐率：9.55req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.9311963003613772',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.9941521472618376
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.9941521472618376 [运行时间：0.028534s][吞吐率：35.05req/s] [内存消耗：1,958.83kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.9941521472618376',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.32997120804583524
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.32997120804583524 [运行时间：0.021074s][吞吐率：47.45req/s] [内存消耗：1,958.78kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.32997120804583524',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.17795411531578653
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.17795411531578653 [运行时间：0.022220s][吞吐率：45.00req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.17795411531578653',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.945174537158993
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.945174537158993 [运行时间：0.023174s][吞吐率：43.15req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.945174537158993',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.08732594841045926
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.08732594841045926 [运行时间：0.022737s][吞吐率：43.98req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.08732594841045926',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5812258996167924
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5812258996167924 [运行时间：0.022715s][吞吐率：44.02req/s] [内存消耗：1,958.72kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5812258996167924',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.39440040002592547
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.39440040002592547 [运行时间：0.022277s][吞吐率：44.89req/s] [内存消耗：1,958.83kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.39440040002592547',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.04529030964977232
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.04529030964977232 [运行时间：0.023026s][吞吐率：43.43req/s] [内存消耗：1,958.83kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.04529030964977232',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5518852669196607
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5518852669196607 [运行时间：0.022616s][吞吐率：44.22req/s] [内存消耗：1,958.93kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5518852669196607',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7310957593750266
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7310957593750266 [运行时间：0.022758s][吞吐率：43.94req/s] [内存消耗：1,958.78kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7310957593750266',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.34016655835127285
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.34016655835127285 [运行时间：0.021491s][吞吐率：46.53req/s] [内存消耗：1,958.89kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.34016655835127285',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.8598134446274291
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.8598134446274291 [运行时间：0.025732s][吞吐率：38.86req/s] [内存消耗：1,958.75kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.8598134446274291',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3647270817839354
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3647270817839354 [运行时间：0.021925s][吞吐率：45.61req/s] [内存消耗：1,958.72kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3647270817839354',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.30327389026687834
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.30327389026687834 [运行时间：0.022904s][吞吐率：43.66req/s] [内存消耗：1,958.91kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.30327389026687834',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.42071839857676785
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.42071839857676785 [运行时间：0.022793s][吞吐率：43.87req/s] [内存消耗：1,958.90kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.42071839857676785',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3901613997964799
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3901613997964799 [运行时间：0.022007s][吞吐率：45.44req/s] [内存消耗：1,958.83kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3901613997964799',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4871916345429741
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4871916345429741 [运行时间：0.023003s][吞吐率：43.47req/s] [内存消耗：1,958.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4871916345429741',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.07662487424812248
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.07662487424812248 [运行时间：0.023463s][吞吐率：42.62req/s] [内存消耗：1,958.75kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.07662487424812248',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.22364625755013523
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.22364625755013523 [运行时间：0.022250s][吞吐率：44.94req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.22364625755013523',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.047694179805574444
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.047694179805574444 [运行时间：0.022743s][吞吐率：43.97req/s] [内存消耗：1,958.79kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.047694179805574444',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.11539550813055321
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.11539550813055321 [运行时间：0.021431s][吞吐率：46.66req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.11539550813055321',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.21576745600407887
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.21576745600407887 [运行时间：0.023315s][吞吐率：42.89req/s] [内存消耗：1,958.73kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.21576745600407887',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.9181762235060589
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.9181762235060589 [运行时间：0.023090s][吞吐率：43.31req/s] [内存消耗：1,958.68kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.9181762235060589',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.24992324036221836
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.24992324036221836 [运行时间：0.022959s][吞吐率：43.56req/s] [内存消耗：1,958.67kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.24992324036221836',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4034998298995921
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4034998298995921 [运行时间：0.023963s][吞吐率：41.73req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4034998298995921',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.2556623000564575
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.2556623000564575 [运行时间：0.023732s][吞吐率：42.14req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.2556623000564575',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.45232874466522155
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.45232874466522155 [运行时间：0.022214s][吞吐率：45.02req/s] [内存消耗：1,958.92kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.45232874466522155',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5093924825537397
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5093924825537397 [运行时间：0.021846s][吞吐率：45.77req/s] [内存消耗：1,958.74kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5093924825537397',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5272386441544445
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5272386441544445 [运行时间：0.022080s][吞吐率：45.29req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5272386441544445',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.1521292444975738
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.1521292444975738 [运行时间：0.021916s][吞吐率：45.63req/s] [内存消耗：1,958.80kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.1521292444975738',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:10:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.05835389990392903
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.05835389990392903 [运行时间：0.023957s][吞吐率：41.74req/s] [内存消耗：1,958.80kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.05835389990392903',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.029962s][吞吐率：33.38req/s] [内存消耗：2,558.02kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.022250s][吞吐率：44.94req/s] [内存消耗：1,958.75kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.259587937339963
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.259587937339963 [运行时间：0.021953s][吞吐率：45.55req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.259587937339963',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5797570896597796
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5797570896597796 [运行时间：0.022673s][吞吐率：44.11req/s] [内存消耗：1,958.74kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5797570896597796',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7591847359433909
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7591847359433909 [运行时间：0.023249s][吞吐率：43.01req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7591847359433909',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.22429901211385295
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.22429901211385295 [运行时间：0.022896s][吞吐率：43.68req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.22429901211385295',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.8305770538039321
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.8305770538039321 [运行时间：0.022461s][吞吐率：44.52req/s] [内存消耗：1,958.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.8305770538039321',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.08727308733237982
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.08727308733237982 [运行时间：0.023712s][吞吐率：42.17req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.08727308733237982',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.18337052818792254
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.18337052818792254 [运行时间：0.022760s][吞吐率：43.94req/s] [内存消耗：1,958.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.18337052818792254',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.24475929704316268
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.24475929704316268 [运行时间：0.022810s][吞吐率：43.84req/s] [内存消耗：1,958.78kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.24475929704316268',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5829094879373271
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5829094879373271 [运行时间：0.023694s][吞吐率：42.20req/s] [内存消耗：1,958.75kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5829094879373271',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.10121639551601525
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.10121639551601525 [运行时间：0.023281s][吞吐率：42.95req/s] [内存消耗：1,958.98kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.10121639551601525',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5843175183262872
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5843175183262872 [运行时间：0.021172s][吞吐率：47.23req/s] [内存消耗：1,958.90kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5843175183262872',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.11705453100554652
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.11705453100554652 [运行时间：0.021705s][吞吐率：46.07req/s] [内存消耗：1,958.90kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.11705453100554652',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.030694s][吞吐率：32.58req/s] [内存消耗：2,558.51kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.023368s][吞吐率：42.79req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.596079156805836
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.596079156805836 [运行时间：0.022027s][吞吐率：45.40req/s] [内存消耗：1,958.87kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.596079156805836',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3493663153425913
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3493663153425913 [运行时间：0.022276s][吞吐率：44.89req/s] [内存消耗：1,958.81kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3493663153425913',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.12114796523995153
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.12114796523995153 [运行时间：0.022074s][吞吐率：45.30req/s] [内存消耗：1,958.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.12114796523995153',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7043701384430681
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7043701384430681 [运行时间：0.022661s][吞吐率：44.13req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7043701384430681',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3824186329294301
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3824186329294301 [运行时间：0.022961s][吞吐率：43.55req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3824186329294301',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.6863817268834489
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.6863817268834489 [运行时间：0.022367s][吞吐率：44.71req/s] [内存消耗：1,958.79kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.6863817268834489',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3066782589691809
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3066782589691809 [运行时间：0.022558s][吞吐率：44.33req/s] [内存消耗：1,958.90kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3066782589691809',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.8900482994082285
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.8900482994082285 [运行时间：0.022784s][吞吐率：43.89req/s] [内存消耗：1,958.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.8900482994082285',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.8871411788844116
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.8871411788844116 [运行时间：0.022961s][吞吐率：43.55req/s] [内存消耗：1,958.81kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.8871411788844116',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7756897998905434
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7756897998905434 [运行时间：0.022987s][吞吐率：43.50req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7756897998905434',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3506707053181908
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3506707053181908 [运行时间：0.022995s][吞吐率：43.49req/s] [内存消耗：1,958.80kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3506707053181908',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.22578167610340194
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.22578167610340194 [运行时间：0.023100s][吞吐率：43.29req/s] [内存消耗：1,958.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.22578167610340194',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.19611588980134131
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.19611588980134131 [运行时间：0.022712s][吞吐率：44.03req/s] [内存消耗：1,958.89kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.19611588980134131',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.9931191314594234
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.9931191314594234 [运行时间：0.021864s][吞吐率：45.74req/s] [内存消耗：1,959.00kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.9931191314594234',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4845082683834596
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4845082683834596 [运行时间：0.024319s][吞吐率：41.12req/s] [内存消耗：1,958.79kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4845082683834596',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.3895128207838424
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.3895128207838424 [运行时间：0.022156s][吞吐率：45.13req/s] [内存消耗：1,958.89kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.3895128207838424',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.09549177068937209
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.09549177068937209 [运行时间：0.022265s][吞吐率：44.91req/s] [内存消耗：1,958.92kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.09549177068937209',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.03346748977939873
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.03346748977939873 [运行时间：0.023917s][吞吐率：41.81req/s] [内存消耗：1,958.97kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.03346748977939873',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:11:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.03346748977939873
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.03346748977939873 [运行时间：0.023816s][吞吐率：41.99req/s] [内存消耗：1,959.10kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.03346748977939873',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:15:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.033020s][吞吐率：30.28req/s] [内存消耗：2,558.51kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:15:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.023830s][吞吐率：41.96req/s] [内存消耗：1,958.78kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.13333964562048894
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.13333964562048894 [运行时间：0.024860s][吞吐率：40.23req/s] [内存消耗：1,958.98kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.13333964562048894',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4369494523749943
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4369494523749943 [运行时间：0.022761s][吞吐率：43.94req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4369494523749943',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/login/index
+[ info ] www.yc1.com/index.php/Admin/login/index [运行时间：0.027562s][吞吐率：36.28req/s] [内存消耗：2,558.62kb] [文件加载：45]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\yc1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\yc1/application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html [运行时间：0.022222s][吞吐率：45.00req/s] [内存消耗：1,958.77kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.30822165894221587
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.30822165894221587 [运行时间：0.021838s][吞吐率：45.79req/s] [内存消耗：1,958.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.30822165894221587',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.4134400809960782
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.4134400809960782 [运行时间：0.022184s][吞吐率：45.08req/s] [内存消耗：1,958.81kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.4134400809960782',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.1815099391456899
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.1815099391456899 [运行时间：0.022199s][吞吐率：45.05req/s] [内存消耗：1,958.87kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.1815099391456899',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.5359692163118529
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.5359692163118529 [运行时间：0.022279s][吞吐率：44.89req/s] [内存消耗：1,958.89kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.5359692163118529',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T22:21:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha/Admin/Login/captcha.html0.7038469647509297
+[ info ] www.yc1.com/index.php/captcha/Admin/Login/captcha.html0.7038469647509297 [运行时间：0.021803s][吞吐率：45.86req/s] [内存消耗：1,958.92kb] [文件加载：34]
+[ info ] [ LANG ] D:\yc1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yc1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.yc1.com/index.php/Admin/login/index',
+  'cookie' => 'pgv_pvi=9097990144; pgv_si=s8793522176; PHPSESSID=g91htsdol5a5sll9gd5quvn126',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'Admin',
+  'Login' => 'captcha.html0.7038469647509297',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\yc1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
